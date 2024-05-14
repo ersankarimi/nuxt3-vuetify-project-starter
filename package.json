@@ -15,12 +15,15 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
+    "@mdi/font": "^7.4.47",
     "nuxt": "^3.11.2",
     "vue": "^3.4.27",
     "vue-router": "^4.3.2"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.18.0",
-    "eslint-plugin-format": "^0.1.1"
+    "eslint-plugin-format": "^0.1.1",
+    "vite-plugin-vuetify": "^2.0.3",
+    "vuetify": "^3.6.5"
   }
 }
